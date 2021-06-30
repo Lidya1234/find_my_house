@@ -36,7 +36,6 @@ const SingleHouse = ({
       house_id: houseid,
     };
     if (isAdded) {
-      console.log('hii');
       dispatch(removefavorite(id));
       Notify();
     } else {
